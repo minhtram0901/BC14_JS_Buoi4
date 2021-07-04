@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, #A9E2F3, #E0F2F7);
+    background-attachment: fixed;
+}
+
+.btn-outline-info {
+
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-info:hover {
+    color: #17a2b8;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn{
+    padding:  0.4rem 3rem;
+}
+
+.result{
+    border-top: 1px solid rgba(0,0,0,.125);
+    background-color: rgba(0,0,0,.03);
+    width: 100%;
+    height: 5rem;
+}
+
+input[type=number]{
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
